@@ -31,8 +31,9 @@ body {
 }
 
 .navbar-default a.navbar-brand {
-  font-weight: 100;
+  font-weight: 200;
   font-size: 2em;
+  color: rgb(247, 181, 22);
 }
 
 .navbar-default .navbar-nav > .active a, .navbar-default .navbar-nav > .active a:hover {
@@ -73,4 +74,18 @@ h1, h2, h3, h4, h5, h6, .navbar {
   background-color: rgb(247, 181, 22);
   color: white;
   letter-spacing: 1px;
+}
+
+.box {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.box h1, .box h2 {
+  letter-spacing: 4px;
+  font-size: 2em;
+  margin-bottom: 10px;
 }
