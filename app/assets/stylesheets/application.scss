@@ -23,17 +23,18 @@ body {
 }
 
 .navbar {
+  border: none;
   border-radius: 0;
   font-family: 'Helvetica Neue', arial;
   font-weight: 200;
   letter-spacing: 2px;
-  background: url('seigaiha.png');
+  background-color: rgb(247, 181, 22);
 }
 
 .navbar-default a.navbar-brand {
   font-weight: 200;
   font-size: 2em;
-  color: rgb(247, 181, 22);
+  color: black;
 }
 
 .navbar-default .navbar-nav > .active a, .navbar-default .navbar-nav > .active a:hover {
