@@ -83,10 +83,15 @@ h1, h2, h3, h4, h5, h6, .navbar {
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
+  letter-spacing: 1px;
 }
 
 .box h1, .box h2 {
   letter-spacing: 4px;
   font-size: 2em;
   margin-bottom: 10px;
+}
+
+.clear {
+  clear: both;
 }
