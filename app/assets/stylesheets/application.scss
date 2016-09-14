@@ -16,3 +16,17 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar {
+  border-radius: 0;
+  font-family: 'Helvetica Neue', arial;
+  font-weight: 200;
+  letter-spacing: 2px;
+  background: url('seigaiha.png');
+}
+
+.navbar-default a.navbar-brand {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  font-size: 2em;
+}
