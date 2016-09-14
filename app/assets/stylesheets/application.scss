@@ -17,6 +17,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+  background: url('asanoha-400px.png');
+  font-family: "Helvetica Neue", Helvetica;
+}
+
 .navbar {
   border-radius: 0;
   font-family: 'Helvetica Neue', arial;
@@ -26,7 +31,6 @@
 }
 
 .navbar-default a.navbar-brand {
-  font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
   font-size: 2em;
 }
@@ -63,4 +67,10 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 .btn {
   border-radius: 0;
+}
+
+.btn-sunset {
+  background-color: rgb(247, 181, 22);
+  color: white;
+  letter-spacing: 1px;
 }
