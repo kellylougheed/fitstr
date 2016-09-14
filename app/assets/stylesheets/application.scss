@@ -30,3 +30,37 @@
   font-weight: 100;
   font-size: 2em;
 }
+
+.navbar-default .navbar-nav > .active a, .navbar-default .navbar-nav > .active a:hover {
+  background: none;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.hero {
+  height: 370px;
+  background: url('hero.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.transparent {
+  background: rgba(0,0,0,0.3);
+  color: white;
+  text-align: center;
+  width: auto;
+  padding: 10px;
+  font-family: 'Helvetica Neue', arial;
+}
+
+.transparent h1, .transparent h2 {
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.btn {
+  border-radius: 0;
+}
