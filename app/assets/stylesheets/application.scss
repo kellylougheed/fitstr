@@ -81,6 +81,17 @@ h1, h2, h3, h4, h5, h6, .navbar {
   width: 120px;
 }
 
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-nav > li > a.btn-courses {
+  background: rgb(235, 174, 150);
+  color: white;
+  padding: 8px;
+  margin: 7px;
+  }
+
 .box {
   background: #ffffff;
   border: 1px solid #ffffff;
@@ -91,7 +102,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .box h1, .box h2 {
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   font-size: 2em;
   margin-bottom: 10px;
 }
@@ -101,7 +112,6 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 input, textarea {
-  width: 100%;
   letter-spacing: 1px;
 }
 

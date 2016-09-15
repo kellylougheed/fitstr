@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Fitstr</title>
+  <title>FITSTR</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -24,9 +24,12 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link</a></li>
-      </ul>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <%= link_to 'See All Courses', courses_path, class: 'btn btn-courses' %>
+            </li>
+          </ul>
       <ul class="nav navbar-nav navbar-right">
         <% if user_signed_in? %>
         <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
