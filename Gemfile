@@ -6,6 +6,11 @@ gem 'devise'
 
 gem 'simple_form'
 
+gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
+
+gem "figaro"
+gem "fog"
+
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
