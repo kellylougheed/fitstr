@@ -19,20 +19,23 @@
     <div class="col-sm-8 col-xs-12">
       <%= @course.description %>
     </div>
-    
+    <br>
+
     <div class="col-xs-12">
       <% @course.sections.each do |section| %>
-        <div class="section">
-          <%= section.title %>
-          <% section.lessons.each do |lesson| %>
-            <div class="lesson">
-            <%= link_to lesson_path(lesson) do %>
-            <b><%= lesson.title %></b> <% end %>
-            <% if lesson.subtitle.present? %>
-              - <%= lesson.subtitle %>
-            <% end %>
+        <div class="section text-center">
+          <h3><%= section.title %></h3>
+          <br>
+            <div class="flexbox">
+              <% section.lessons.each do |lesson| %>
+              <div class="lesson col-xs-12 col-sm-4">
+                <%= link_to lesson_path(lesson) do %>
+                <%= lesson.title %> <% end %>
+                <% if lesson.subtitle.present? %>
+                  <br><%= lesson.subtitle %><% end %>
+              </div>
+              <% end %> 
             </div>
-          <% end %>
         </div>
       <% end %>
     </div>

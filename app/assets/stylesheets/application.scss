@@ -123,3 +123,36 @@ input, textarea {
   padding: 8px;
   margin: 10px;
 }
+
+div.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.lesson {
+  background-color: rgba(36,32,33,0.9);
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.lesson a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Helvetica Neue', arial;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+.lesson a:hover {
+  text-decoration: none;
+  color: #cccccc;
+}
+
+.section {
+  border: 1px solid #aaaaaa;
+  padding: 20px;
+  margin: 10px;
+}
