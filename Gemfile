@@ -3,8 +3,8 @@ source 'https://rubygems.org'
 gem 'rails_12factor', group: :production
 
 gem 'devise'
-
 gem 'simple_form'
+gem 'stripe'
 
 gem 'carrierwave', '0.10.0'
 gem 'mini_magick', '~> 4.3.1'
