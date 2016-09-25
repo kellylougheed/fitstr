@@ -6,6 +6,7 @@ gem 'devise'
 gem 'simple_form'
 gem 'stripe'
 gem 'ranked-model'
+gem 'jquery-ui-rails'
 
 gem 'carrierwave', '0.10.0'
 gem 'mini_magick', '~> 4.3.1'
