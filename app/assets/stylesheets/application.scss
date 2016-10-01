@@ -40,7 +40,7 @@ body {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: black;
+  background-color: white;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -50,8 +50,12 @@ body {
 .navbar-default a.navbar-brand {
   font-family: 'Syncopate';
   font-size: 4em;
-  color: black;
+  color: white;
   margin-top: 3px;
+}
+
+.navbar-default a.navbar-brand:hover {
+  color: black;
 }
 
 .navbar-default .navbar-nav > .active a, .navbar-default .navbar-nav > .active a:hover {
@@ -116,8 +120,8 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 .navbar-nav > li > a.btn-courses {
   background: none;
   color: white;
-  padding: 8px;
-  margin: 7px;
+  padding: 8px 0 0 8px;
+  margin: 7px 0 0 7px;
   font-weight: bold;
   letter-spacing: 3px;
   text-transform: uppercase;
