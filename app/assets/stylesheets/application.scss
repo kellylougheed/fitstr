@@ -132,11 +132,13 @@ div.flexbox {
   align-items: flex-start;
 }
 
-.lesson {
+.lesson, .lessons li {
   background-color: rgba(36,32,33,0.9);
   color: white;
   padding: 10px;
   margin: 10px;
+  font-family: 'Helvetica Neue', arial;
+  font-weight: 100;
 }
 
 .lesson a {
@@ -152,13 +154,25 @@ div.flexbox {
   color: #cccccc;
 }
 
-.section {
+.section, .section-li {
   border: 1px dotted #aaaaaa;
   padding: 15px;
   margin: 20px;
 }
 
+.header {
+  font-size: 1.5em;
+}
+
+.header .glyphicon {
+  font-size:20px;
+}
+
 p.alert {
   text-align: center;
   letter-spacing: 1px;
+}
+
+ul {
+  list-style-type: none;
 }
