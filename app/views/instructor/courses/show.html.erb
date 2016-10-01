@@ -35,7 +35,7 @@ $(function() {
     <%= link_to 'Preview as student', course_path(current_course), class: 'btn btn-sunset pull-right' %>
     <br>
     <br>
-    <!-- Button trigger modal -->
+    <!-- New section trigger modal -->
     <button class="btn btn-sunset pull-right" data-toggle="modal" data-target="#newSectionModal">
       Add a new section
     </button>
@@ -50,7 +50,10 @@ $(function() {
         </div>
         <div class="col-xs-11">
         <span class="header"><%= section.title %></span><br>
-        <%= link_to 'New Lesson', new_instructor_section_lesson_path(section), class: 'btn btn-sunset btn-xs' %>
+          <!-- New lesson trigger modal -->
+        <button class="btn btn-sunset btn-xs" data-toggle="modal" data-target="#newLessonModal">
+          New Lesson
+        </button>
       <ul class="lessons">
         <% section.lessons.rank(:row_order).each do |lesson| %>
           <li data-update-url="<%= instructor_lesson_path(lesson) %>">
@@ -75,7 +78,7 @@ $(function() {
 </div>
 
 <!-- New section modal -->
-<div class="modal fade" id="newSectionModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="newSectionModal" tabindex="-1" role="dialog" aria-labelledby="newSectionModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -89,6 +92,29 @@ $(function() {
       <div class="modal-footer">
         <button type="button" class="btn btn-sunset" data-dismiss="modal">Close</button>
         <%= f.submit "Add a section", class: 'btn btn-sunset' %>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<!-- New lesson modal -->
+<div class="modal fade" id="newLessonModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="newLessonModalLabel">Add a new lesson</h4>
+      </div>
+      <%= simple_form_for @lesson, url: '#' do |f| %>
+      <div class="modal-body">
+          <%= f.input :title %><br>
+          <%= f.input :subtitle %><br>
+          <%= f.input :video %>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-sunset" data-dismiss="modal">Close</button>
+        <%= f.submit 'Add the lesson', class: 'btn btn-sunset' %>
       </div>
       <% end %>
     </div>

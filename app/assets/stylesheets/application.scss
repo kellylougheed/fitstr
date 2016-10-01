@@ -34,6 +34,19 @@ body {
   background-color: rgb(247, 181, 22);
 }
 
+.navbar-default .navbar-toggle {
+  border: none;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
 .navbar-default a.navbar-brand {
   font-family: 'Syncopate';
   font-size: 4em;
@@ -96,6 +109,10 @@ h1 a:hover, h2 a:hover, h3 a:hover {
   color: white;
 }
 
+.navbar-default .navbar-nav > li > a:hover {
+  color: black;
+}
+
 .navbar-nav > li > a.btn-courses {
   background: none;
   color: white;
@@ -106,8 +123,8 @@ h1 a:hover, h2 a:hover, h3 a:hover {
   text-transform: uppercase;
 }
 
-span.underline:hover {
-  border-bottom: 3px solid black;
+.navbar-nav > li > a.btn-courses:hover {
+  color: black;
 }
 
 .box {
