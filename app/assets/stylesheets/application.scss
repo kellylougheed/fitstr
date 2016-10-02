@@ -229,3 +229,13 @@ input#user_email, input#user_password, input#user_password_confirmation {
   padding: 5px;
   letter-spacing: 1px;
 }
+
+a:link, a:active, a:visited {
+  text-decoration: none;
+  color: rgb(247, 181, 22);
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000000;
+}
