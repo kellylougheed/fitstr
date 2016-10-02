@@ -124,11 +124,14 @@ h1 a:hover, h2 a:hover, h3 a:hover {
   margin: 7px 0 0 7px;
   font-weight: bold;
   letter-spacing: 3px;
-  text-transform: uppercase;
 }
 
 .navbar-nav > li > a.btn-courses:hover {
   color: black;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
 
 .box {
@@ -212,4 +215,9 @@ p.alert {
 
 ul {
   list-style-type: none;
+}
+
+.social-button {
+  width: 32px;
+  margin: 4px;
 }

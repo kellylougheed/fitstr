@@ -58,8 +58,46 @@
 <br class="clear">
 <div id="footer">
   <div class="container">
-    <b>Teachers</b><br>
-    <%= link_to 'Teach a Course', new_instructor_course_path %>
+    <div class="col-xs-6 col-sm-3">
+        <b>Teachers</b>
+        <br>
+        <%= link_to 'Teach a Course', new_instructor_course_path %>
+        <br>
+        <%= link_to 'My Dashboard', dashboard_path %>
+        <br>
+      </div>
+      <div class="col-xs-6 col-sm-3">
+        <b>About</b>
+        <br>
+        <%= link_to 'Team', '#' %>
+        <br>
+        <%= link_to 'Careers', '#' %>
+        <br>
+        <%= link_to 'Privacy Policy', '#' %>
+        <br><br>
+      </div>
+      <div class="col-xs-6 col-sm-3">
+        <b>Contact</b>
+        <br>
+        hello@kellylougheed.com
+        <br>
+        Los Angeles, CA
+        <br>
+      </div>
+      <div class="col-xs-6 col-sm-3">
+        <b>Social</b>
+        <br>
+        <%= link_to 'http://www.github.com/kellylougheed' do %>
+          <%= image_tag 'github.png', class: 'social-button' %>
+        <% end %>
+        <%= link_to 'http://www.twitter.com/kellylougheed' do %>
+          <%= image_tag 'twitter.png', class: 'social-button' %>
+        <% end %>
+        <%= link_to 'http://www.linkedin.com/in/kellylougheed' do %>
+          <%= image_tag 'linkedin.png', class: 'social-button' %>
+        <% end %>
+        <br>
+      </div>
   </div>
 </div>
 
