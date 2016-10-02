@@ -86,8 +86,8 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 }
 
 .transparent {
-  background: rgba(0,0,0,0.3);
-  color: white;
+  color: black;
+  text-shadow: 1px 1px white;
   text-align: center;
   width: auto;
   padding: 10px;
