@@ -239,3 +239,9 @@ input#user_email, input#user_password, input#user_password_confirmation {
   padding: 5px;
   letter-spacing: 1px;
 }
+
+@media (max-width: 750px) {
+ .transparent {
+    background-color: rgba(0,0,0,.2);
+ }
+}
