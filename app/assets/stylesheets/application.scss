@@ -210,6 +210,7 @@ div.flexbox {
 p.alert {
   text-align: center;
   letter-spacing: 1px;
+  margin: 0;
 }
 
 ul {
@@ -219,4 +220,12 @@ ul {
 .social-button {
   width: 32px;
   margin: 4px;
+}
+
+input#user_email, input#user_password, input#user_password_confirmation {
+  width: 100%;
+  border: 1px solid #cccccc;
+  background-color: white;
+  padding: 5px;
+  letter-spacing: 1px;
 }
