@@ -99,6 +99,16 @@ h1 a:hover, h2 a:hover, h3 a:hover {
   letter-spacing: 2px;
 }
 
+a.sunset:link, a.sunset:active, a.sunset:visited, div.links a:link, div.links a:active, div.links a:visited {
+  text-decoration: none;
+  color: rgb(247, 181, 22);
+}
+
+a.sunset:hover, div.links a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
 .btn {
   border-radius: 0;
   color: white;
@@ -228,14 +238,4 @@ input#user_email, input#user_password, input#user_password_confirmation {
   background-color: white;
   padding: 5px;
   letter-spacing: 1px;
-}
-
-a:link, a:active, a:visited {
-  text-decoration: none;
-  color: rgb(247, 181, 22);
-}
-
-a:hover {
-  text-decoration: none;
-  color: #000000;
 }
