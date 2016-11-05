@@ -17,7 +17,7 @@ Fitstr is a video-streaming marketplace where instructors can offer online fitne
 
 <li> Photo uploading is enabled with Carrierwave.</li><br/>
 
-<li> Amazon Web Services S3 stores user-uploaded photos of places to study.</li><br/>
+<li> Amazon Web Services S3 stores user-uploaded photos.</li><br/>
 
 <li> Each user's profile pages shows the courses they are teaching and the courses they are taking.</li><br/>
 
