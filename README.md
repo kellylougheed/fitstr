@@ -4,6 +4,8 @@
 
 Fitstr is a video-streaming marketplace where instructors can offer online fitness classes for a price and users can pay to take them (unless they're free!).
 
+<img src="http://www.kellylougheed.com/images/projects/fitstr.png"/>
+
 <h2>Features:</h2>
 
 <ul>
